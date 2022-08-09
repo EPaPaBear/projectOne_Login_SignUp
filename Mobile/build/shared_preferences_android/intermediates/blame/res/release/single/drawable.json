@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/richard/Downloads/test-v1.0.22/build/shared_preferences_android/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/richard/.gradle/caches/transforms-2/files-2.1/c712ccacdd74109979d40bc0521bd291/core-1.6.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/richard/Downloads/test-v1.0.22/build/shared_preferences_android/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/richard/.gradle/caches/transforms-2/files-2.1/c712ccacdd74109979d40bc0521bd291/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/richard/Downloads/test-v1.0.22/build/shared_preferences_android/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/richard/.gradle/caches/transforms-2/files-2.1/c712ccacdd74109979d40bc0521bd291/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/richard/Downloads/test-v1.0.22/build/shared_preferences_android/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/richard/.gradle/caches/transforms-2/files-2.1/c712ccacdd74109979d40bc0521bd291/core-1.6.0/res/drawable/notification_bg_low.xml"
+    }
+]

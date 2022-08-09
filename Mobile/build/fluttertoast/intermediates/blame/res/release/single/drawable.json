@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/richard/Downloads/test-v1.0.22/build/fluttertoast/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/richard/.gradle/caches/transforms-2/files-2.1/c712ccacdd74109979d40bc0521bd291/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/richard/Downloads/test-v1.0.22/build/fluttertoast/intermediates/res/merged/release/drawable/corner.xml",
+        "source": "/Users/richard/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-8.0.9/android/src/main/res/drawable/corner.xml"
+    },
+    {
+        "merged": "/Users/richard/Downloads/test-v1.0.22/build/fluttertoast/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/richard/.gradle/caches/transforms-2/files-2.1/c712ccacdd74109979d40bc0521bd291/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/richard/Downloads/test-v1.0.22/build/fluttertoast/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/richard/.gradle/caches/transforms-2/files-2.1/c712ccacdd74109979d40bc0521bd291/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/richard/Downloads/test-v1.0.22/build/fluttertoast/intermediates/res/merged/release/drawable/toast_bg.xml",
+        "source": "/Users/richard/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-8.0.9/android/src/main/res/drawable/toast_bg.xml"
+    },
+    {
+        "merged": "/Users/richard/Downloads/test-v1.0.22/build/fluttertoast/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/richard/.gradle/caches/transforms-2/files-2.1/c712ccacdd74109979d40bc0521bd291/core-1.6.0/res/drawable/notification_icon_background.xml"
+    }
+]

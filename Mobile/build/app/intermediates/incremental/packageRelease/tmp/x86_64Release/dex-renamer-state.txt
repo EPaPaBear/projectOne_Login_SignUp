@@ -1,0 +1,4 @@
+#Mon Aug 08 21:06:21 GMT 2022
+base.0=/Users/richard/Downloads/test-v1.0.22/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
