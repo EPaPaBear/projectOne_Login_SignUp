@@ -1,3 +1,62 @@
+# About this app
+
+This repo consists of files used for the implementation of a simple login and registration system for a web and mobile web apps for project one of the CPEN 412 course. The web app's files are all the files in this immediate branch excluding the "Mobile" dirctory, which, as it sounds, houses the files used in the implementation of the mobile app. The applications use a custom API scripted in php to access a Postgresql database hosted on AWS RDS and the [web application hosted using AWS Beanstalk](http://projectone-env.eba-zrhsxtme.eu-west-2.elasticbeanstalk.com/). The mobile application, scripted in flutter, was deployed as an android apk file which can be located in the `Mobile\build\app\outputs\ap\release\app-armeabi-v7a-release.apk`.
+
+## API Guide
+The api's implemented can be found at the `routes\api.php`. The application simply registers and logs a user in thus the functions involved are simple
+- Create
+- Read
+- Update
+- Delete
+- Authenticate
+- Logout
+ api's using JSON.
+ 
+ ### Create user
+ To create a new user, use the **POST** method alongside the following http request
+ ```
+ Projectone-env.eba-zrhsxtme.eu-west-2.elasticbeanstalk.com/api/users
+ ```
+ The body of the request ought to have the following key-value pairs
+ - name
+ - email
+ - phone
+ - password
+ 
+ ### Read user detail
+ To fetch all user details, use the **GET** method to submit the same http request as the create user request.
+ 
+ To *fetch a specific user*, provided you know their id, use the **GET** method as well as
+ ```
+ Projectone-env.eba-zrhsxtme.eu-west-2.elasticbeanstalk.com/api/users/{id}
+ ```
+ 
+ ### Update user detail
+ Use the **PUT** method with the request for a specific user with the request body containing the updates for the aforementioned key-value pairs.
+ 
+ ### Delete user
+ Use the **DELETE** method with the request for a specific user without any body to delete a user
+ 
+ ### Authenticating a user
+ Laravel provides authentication features right out the box with its routes protected under layers of Middlewares. But custom auth functions are allowed and can be accessed using th **POST** method with request
+ ```
+  Projectone-env.eba-zrhsxtme.eu-west-2.elasticbeanstalk.com/api/authenticate
+ ```
+The request body needs to supply the request with
+- name
+- email
+
+### Logging a user out
+To log a user out, use the **POST** method with request
+```
+ Projectone-env.eba-zrhsxtme.eu-west-2.elasticbeanstalk.com/api/logout
+```
+to use Laravel's `Auth::Logout()` function to terminate a user's session.
+
+
+## And now ... a word from our sponsor
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
