@@ -2,6 +2,10 @@
 
 This repo consists of files used for the implementation of a simple login and registration system for a web and mobile web apps for project one of the CPEN 412 course. The web app's files are all the files in this immediate branch excluding the "Mobile" dirctory, which, as it sounds, houses the files used in the implementation of the mobile app. The applications use a custom API scripted in php to access a Postgresql database hosted on AWS RDS and the [web application hosted using AWS Beanstalk](http://projectone-env.eba-zrhsxtme.eu-west-2.elasticbeanstalk.com/). The mobile application, scripted in flutter, was deployed as an android apk file which can be located in the `Mobile\build\app\outputs\ap\release\app-armeabi-v7a-release.apk`.
 
+## Updates: Map Inclusion
+
+Updates have been made to the existing web application to support a map consisting of data imprted from Natural Earth. Via postgresql database, postgis extensions, geoserver and openlayers. This has been done to reflect the requirements with respect to project II.
+
 ## API Guide
 The api's implemented can be found at the `routes\api.php`. The application simply registers and logs a user in thus the functions involved are simple
 - Create
